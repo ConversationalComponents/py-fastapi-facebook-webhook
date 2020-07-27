@@ -1,4 +1,7 @@
 # py-fastapi-facebook-webhook
+[![Python 3.7+](https://img.shields.io/badge/python-3.5+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Basic template for starting facebook chatbot app service, using FastAPI.
 FastAPI provides high performance and perfect tools for developing a small Async 
 web server.
