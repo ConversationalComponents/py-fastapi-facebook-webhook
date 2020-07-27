@@ -1,0 +1,18 @@
+runtime: python37
+instance_class: F2
+
+service: your-service-name
+
+env_variables:
+  VERIFY_TOKEN: 'test'
+  PAGE_ACCESS_TOKEN: ""
+
+
+
+handlers:
+- url: /api/.*
+  script: auto
+  secure: always
+
+
+entrypoint: gunicorn main:app -b :$PORT -w 2 -k uvicorn.workers.UvicornWorker
