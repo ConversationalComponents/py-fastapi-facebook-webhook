@@ -23,7 +23,7 @@ on GAE.
 * run `gcloud app deploy`
 #### Setup Facebook App:  
 * Generate access token for your page.
-* Set the **PAGE_ACCESS_TOKEN* value at the **app.yaml** file to be the access
+* Set the **PAGE_ACCESS_TOKEN** value at the **app.yaml** file to be the access
 token that was generated at the step above.
 * Go to your Facebook App.
 * Sidebar -> Webhooks -> Edit Page Subscription.
